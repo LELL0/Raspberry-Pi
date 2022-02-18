@@ -1,0 +1,5 @@
+text=input("enter your text: ")
+f=open("gyl.txt","a")
+f.write(text)
+f.write("'\nW KAMEN GYL HANE\n")
+f.close()
